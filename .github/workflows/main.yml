@@ -26,4 +26,4 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest  -v --rootdir=/home/runner/work/lab-3_ver2/lab-3_ver2
+          pytest  -v --rootdir=/home/runner/work/lab-3_ver2/lab-3_ver2  test_calculator.py::test_add
